@@ -73,16 +73,4 @@ user_details = [{'UserName': 'Alice',
 with open('mi_archivo_multi.yaml', 'w') as f:
     yaml.safe_dump_all(user_details, f)
 
-
-# LEER YAML EN FORMATO DE CONJUNTO DE TOKENS
-# Sirve tanto para archivos con 1 o más documentos
-with open('config.yml') as f:
-    contenido_yml = yaml.scan(f, Loader=yaml.SafeLoader)
-    for token in contenido_yml:
-        print(token)
 # Para mayor información: https://pynative.com/python-yaml/#h-python-yaml-load-read-yaml-file
-
-with open('multi_config.yml') as f:
-    contenido_yml = yaml.scan(f, Loader=yaml.SafeLoader)
-    for token in contenido_yml:
-        print(token)
