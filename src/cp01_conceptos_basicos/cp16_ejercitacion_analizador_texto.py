@@ -1,0 +1,12 @@
+texto = input("ingresá un texto: ").lower()
+letras = input("ingresá 3 letras, separadas por espacios: ").lower().split(" ")
+print(f"La letra '{letras[0]}' aparece {texto.count(letras[0])} veces")
+print(f"La letra '{letras[1]}' aparece {texto.count(letras[1])} veces")
+print(f"La letra '{letras[2]}' aparece {texto.count(letras[2])} veces")
+texto_lista = texto.split(" ")
+print(f"El texto tiene {len(texto_lista)} palabras")
+print(f"La primer letra del texto es: {texto[0]} y la última, {texto[-1]}")
+texto_invertido = " ".join(texto_lista[::-1])
+print(texto_invertido)
+dic = {True: "Si", False: "No"}
+print(f"La palabra python se encuentra en el texto? {dic['python' in texto]}")

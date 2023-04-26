@@ -145,7 +145,7 @@ while True:
                 print("Primero tiene que seleccionar un cliente\n")
         case '6':
             clear()
-            print("Gracias por utilizar este HomeBanking!")
+            print("Gracias por utilizar este Gestor de Cuentas Bancarias!")
             break
         case _:
             clear()

@@ -1,0 +1,6 @@
+nombres = input('Ingresá al mnenos 5 nombres, separados con espacios: ').lower().split()
+nombres = set(nombres)
+ganador1 = nombres.pop()
+ganador2 = nombres.pop()
+ganador3 = nombres.pop()
+print(ganador1, ganador2, ganador3)
