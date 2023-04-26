@@ -1,0 +1,9 @@
+File, Sheet, Product, Region, Customer,Jan,Feb,Mar, Apr
+cp55_pandas_excel_a_csv_excel1,Hoja1,Apples,Eastern,Bob,78.11546,46.94891,5.478222,68.35353
+cp55_pandas_excel_a_csv_excel1,Hoja1,Apples,Eastern,Frank,75.30212,83.79151,3.486823,95.80907
+cp55_pandas_excel_a_csv_excel1,Hoja1,Apples,Eastern,Machida,79.76019,22.41322,87.19496,76.48894
+cp55_pandas_excel_a_csv_excel1,Hoja1,Apples,Eastern,Tolane,81.47181,34.4247,90.15185,48.72541
+cp55_pandas_excel_a_csv_excel2,Hoja1,Apples,Eastern,Bob,78.11546,46.94891,5.478222,68.35353
+cp55_pandas_excel_a_csv_excel2,Hoja1,Apples,Eastern,Frank,75.30212,83.79151,3.486823,95.80907
+cp55_pandas_excel_a_csv_excel2,Hoja1,Apples,Eastern,Machida,79.76019,22.41322,87.19496,76.48894
+cp55_pandas_excel_a_csv_excel2,Hoja1,Apples,Eastern,Tolane,81.47181,34.4247,90.15185,48.72541

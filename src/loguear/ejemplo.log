@@ -1,0 +1,4 @@
+INFO:root:Texto info
+WARNING:root:Texto warning
+ERROR:root:Texto error
+CRITICAL:root:Texto critical

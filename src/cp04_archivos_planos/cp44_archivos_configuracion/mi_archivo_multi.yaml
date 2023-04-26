@@ -1,0 +1,15 @@
+AccessKeys:
+- EmployeeTable
+- SoftwaresList
+- HardwareList
+Password: star123*
+UserName: Alice
+phone: 3256
+---
+AccessKeys:
+- EmployeeTable
+- SoftwaresList
+- HardwareList
+Password: star123*
+UserName: Alice
+phone: 3256
