@@ -7,11 +7,13 @@ texto = 'Hola! How are you?'
 
 from gtts import gTTS
 import playsound
+import time
 
 lang = 'es'
-file_name = '../temp.mp3'
+file_name = 'cp64temp.mp3'
 final_file = gTTS(text=texto, lang=lang)
 final_file.save(file_name)
+time.sleep(2)
 playsound.playsound(file_name, True)
 
 ############################################################
